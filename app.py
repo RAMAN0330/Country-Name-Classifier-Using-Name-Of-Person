@@ -20,7 +20,7 @@ def evaluate(line_tensor):
     return output
 
 # Load the model
-model_path = "/Users/raman/Desktop/Deep Learning/Assignment/classify_names.pth"
+model_path = "classify_names.pth"
 
 # Initialize model (make sure to use the same parameters as in training)
 n_hidden = 128  # Example value; match this with the one you used
